@@ -1,0 +1,445 @@
+
+  /* ******************************************body*************************************************************/
+  body, html {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+  }
+  body {
+    padding-top: 100px;
+    font-family: Roboto,Arial,sans-serif;
+  }
+   /* ******************************************header***********************************************************/
+  .doc-planner-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border: none;
+    height: 80px;
+    padding: 30px;
+    box-shadow: 0px 0px 8px 0px #ababab;
+    background-color: #ffffff;
+    z-index: 555;
+  }
+  .logo-docplanner {
+    width: 300px;
+    height: 40px;
+  }
+  .navigation-menu {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    padding-right: 30px;
+  }
+  .about-us-link {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: #03c5ab;
+  }
+  .career-link, .departments-link {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 70px;
+    color: #ababab;
+    width: 100px;
+    height: 100px;
+  }
+  .departments-link a {
+    text-decoration: none;
+  }
+  .departments {
+    font-size: 15px;
+    color: #ababab;
+    width: 100px;
+    height: 100px;
+  }
+  .career-link:hover {
+    color: #03c5ab;
+  }
+  .departments:hover {
+    color: #03c5ab;
+  }
+  .departments-dropdown-menu a {
+    text-decoration: none;
+    color: #ababab;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .departments-dropdown-menu {
+    display: none;
+    box-shadow: 0 1px 1px 1px #ababab;
+  }
+  .departments-dropdown-menu ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .departments-link:hover .departments-dropdown-menu {
+    display: block;
+    position: absolute;
+    width: 300px;
+    font-size: 15px;
+    line-height: 2;
+    left: 30px;
+    background-color: #f9f9f9;
+  }
+  .row-menu:hover {
+    background-color: #b5b3b338;
+    color: #03c5ab;
+  }
+  .row-menu:hover a {
+    color: #03c5ab;
+  }
+  /* ****************************************logo2****************************************************************/
+  .logo {
+    width: 35px;
+    height: auto;
+  }
+  /* ****************************************description1*********************************************************/
+  .leading-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+  .leading-section h1 {
+        font-size: 2.125rem;
+        color: #00b39b;
+    }
+  .lead-section-text {
+    display: flex;
+    z-index: 400;
+  }
+  .lead-section-text-1, .lead-section-text-2 {
+    display: block;
+    font-size: 16px;
+    line-height: 1.75;
+    padding: 0px 2px;
+    margin: 0 12px;
+    color: #747474;
+  }
+/* ****************************************description services**************************************************/
+.service-section{
+    display: flex;
+    font-family: Roboto,Arial,sans-serif;
+    justify-content: space-between;
+    gap:30px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+.patients{
+    background: #00ccb1;
+    border-radius: 10px;
+    padding: 1.375em 1.25em 0;
+    font-family: Roboto,Arial,sans-serif;
+    height:345px;
+  }
+.doctors{
+    background: #3d83df;
+    border-radius: 10px;
+    padding: 1.375em 1.25em 0;
+    font-family: Roboto,Arial,sans-serif;
+    height:345px;
+  }
+.clinics{
+    background: #1b2734;
+    border-radius: 10px;
+    padding: 1.375em 1.25em 0;
+    font-family: Roboto,Arial,sans-serif;
+    height:345px;
+  }
+style-select select{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    background: transparent;
+    letter-spacing: .04em;
+    transition: all .2s ease 0s;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size:1.2em;
+  }
+.style-select select option{
+    color:black;
+  }
+.service-section h1 {
+    font-size: 1.5em;
+    font-weight: 1000;
+    color: #fff;
+    margin: 0.3em 0;
+  }
+.service-section h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+  }
+/* ****************************************description partners***************************************************/
+  .partners-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 195px;
+    margin-right: 220px;
+    padding: 42px 0px;
+    z-index: 400;
+  }
+  .partners-section h1 {
+    color: #00b39b;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+  }
+  .partners-sites a {
+    text-decoration: none;
+    color: rgb(161, 153, 153);
+    display: flex;
+    font-size: 20px;
+    font-weight: solid;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .partners-sites {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 0px;
+  }
+  .partners-sites img {
+    width: 130px;
+    height: 35px;
+    filter: opacity(30%)
+  }
+  .partners-sites img:hover {
+    filter: opacity(100%);
+  }
+  .partners-sites svg {
+    width: 130px;
+    height: 35px;
+    filter: opacity(30%);
+  }
+  .partners-sites svg:hover {
+    filter: opacity(50%);
+    background: aqua;
+  }
+  .tuotempo {
+    height: 16px;
+  }
+  /* ****************************************description statistics***************************************************/
+  .statistics-section {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+    background-color: #d7f5f5;
+    z-index: 400;
+  }
+  .flag {
+    height: auto;
+    position: absolute;
+    bottom: -2px;
+    left: 40px;
+  }
+  .inside-statistics {
+    display: flex;
+    margin-left: 195px;
+    margin-right: 220px;
+    padding: 20px 0px;
+  }
+  .stats {
+    display: flex;
+    align-items: space-between;
+  }
+  .colon1, .colon2 {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 50%;
+  }
+  .colon1 {
+    margin-top: 20px;
+  }
+  .colon1 div, .colon2 div {
+    margin: 0 20px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .stats1, .stats2, .stats3, .stats4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: wrap column;
+    z-index:554;
+    line-height: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 235px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+  }
+  .colon1>div h1, .colon2>div h1 {
+    padding-left: 20px;
+  }
+  .statistics-section h1 {
+    font-size: 26px;
+    color: #03c5ab;
+  }
+  .statistics-punchline p {
+    font-size: 17px;
+    color: #8a8a8a;
+  line-height: 20px;
+  }
+  .stats p {
+    font-size: 1em;
+    color: #8a8a8a;
+    text-align: center;
+  }
+  .stats h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+    text-align: center;
+  }
+/* ****************************************description offices***************************************************/
+  .offices-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 195px;
+    margin-right: 220px;
+  }
+  .offices-message {
+    margin: 40px 0px;
+    max-width: 460px;
+    display: block;
+    text-align: center;
+  }
+  .offices-message h1 {
+    font-size: 28px;
+    color: #03c5ab;
+  }
+  .offices-message p {
+    font-size: 14px;
+    color: #8a8a8a;
+    line-height: 2;
+  }
+  .offices-location-slider {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    border-radius: 5px;
+  }
+  .location {
+    max-width: 31%;
+    margin: 10px;
+    border:0.1px solid #b3afaf26;
+  }
+  .location img {
+    box-sizing: content-box;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .city-see-next {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+  }
+  .city-see-next h3 {
+    font-size: 17px;
+    color: #8a8a8a;
+  }
+  .city-see-next a {
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #3d83df;
+    border-radius: 3px;
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7px;
+  }
+  .location:hover {
+    box-shadow: 20px 20px 50px #cecdcd7a;
+    border-radius: 5px;
+  }
+  .location a:hover {
+    background-color: #106fec;
+  }
+  /******************************************join us**************************************************************/
+  .join-us__header {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.166666666723em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+  /* ****************************************footer****************************************************************/
+  .footer-inside p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 3;
+    color: #8a8a8a;
+    font-weight: 400;
+  }
+  .footer-inside>div p {
+    line-height: 0.7;
+    font-weight: 400;
+  }
+  .footer-inside {
+    margin: 10px 0px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #106fec;
+  }
+  footer hr{
+    border:0.1px solid #8a8a8a26;
+  }
+/* **************************************responsive case******************************************************/
+* {
+  box-sizing: border-box;
+  padding:0;
+}
+
+@media only screen and (max-width: 300px) {
+  *{
+    zoom:20%;
+    width:50%;
+  }
+}
